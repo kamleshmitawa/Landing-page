@@ -1,0 +1,286 @@
+/* Header */
+.navigation{
+    border: 1px solid lightgray;
+    position: fixed;
+    z-index: 1;
+    background-color: white;
+    font-size: 14px;
+}
+.logo{
+    font-size: 35px;
+    padding: 0px 35px;
+    color: #E43C5C !important;
+}
+
+.logo:hover{
+    color: rgb(110, 104, 104) !important;
+    text-decoration: none;
+}
+.navbar a{
+    color: black;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.navbar ul>li a:hover{
+border-bottom: 2px solid #E43C5C;
+}
+
+/* Banner */
+.banner{
+    background: url('/Assests/banner.jpg') no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 150px 100px;
+    color: white;
+    text-align: start;
+    letter-spacing: 5px;
+    z-index: 1;
+    overflow: hidden;
+    display: block;
+}
+.banner-btn{
+    padding: 10px 30px;
+    color: white;
+    font-size: 11px;
+    display: inline-block;
+    letter-spacing: 1px;
+    align-items: center;
+    border-color: white;
+}
+.banner-btn:hover{
+    background-color: #E43C5C;
+}
+.banner-heading{
+    background-color:#E43C5C;
+    color: white;
+    font-size: 30px;
+    min-width: 100%;
+}
+
+/* Services */
+.services{
+    padding: 100px 0px  10px;
+}
+.underline{
+    width: 100px;
+    height: 2px;
+    background-color:#E43C5C;
+}
+.service-design{
+    padding: 25px 0px 110px;
+    display: inline-block;
+}
+.design-img{
+    border: 1px solid rgba(247, 243, 243, 0.87);
+    display: inline-block;
+    margin: 20px 20px 40px 5px;
+    height: 75px;
+    float: left;
+    width: 20%;
+    border-radius: 50%;
+}
+.design-img img{
+    vertical-align: middle;
+    border-style: none;
+    margin-top: 10px;
+}
+.design-content{
+    float: left;
+    width: 70%;
+    font-size: 14px;
+    text-align: start;
+}
+
+/* Portfolio */
+.portfolio-head{
+ padding: 100px 0px 50px;
+}
+.portfolio-content{
+    justify-content: center;
+    margin-top: 0px;
+}
+.portfolio-btn{
+display: inline-block;
+color: black;
+}
+.portfolio-btn button{
+    font-size: 12px;
+    margin: 15px;
+    padding: 8px 17px;
+    display: inline-block;
+}
+.portfolio-btn :hover{
+    color:white;
+    background-color: #E43C5C;
+}
+.portfolio-img{
+    margin: 15px 0px 30px;
+    padding: 0px 100px;
+
+}
+.port-img{
+    display: block;
+    max-width: 100%;
+    padding: 7px;
+    height: 220px;
+    position: relative;
+}
+.port-img img{
+    max-width: 100%;
+    min-height: 100%;
+}
+.port-img .description{
+    visibility: hidden;
+}
+.port-img:hover .description{
+    background-color: #E43C5C;
+    visibility: visible;
+    margin: 7px 7px;
+    text-align: start;
+    max-width: 100%;
+    color: white;
+    display: inline-block;
+    font-size: 14px;
+    line-height: 0px;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    position: absolute;
+}
+
+/* Our Team */
+.team-page{
+    padding: 0px 0px 50px;
+}
+.team-img{
+    margin: 0px 15px 0px -13px !important
+}
+.follow {
+display: inline-block;
+}
+.follow li img{
+    width: 25px;
+}
+.quote{
+    justify-content: space-evenly;
+    background-color: #E43C5C;
+    padding: 50px;
+    color: white;
+    margin-bottom:20px;
+}
+.quote button{
+    background-color: white;
+    color: none;
+    color: black;
+    font-size: 14px;
+}
+
+/* Contact US */
+.contact{
+    padding: 100px 0px 0px;
+    font-size: 14px;
+}
+.form-input{
+    border-radius: 35px;
+    padding: 30px;
+    font-size: 14px;
+}
+.contact-msg{
+    border-radius: 35px;
+    height: 200px !important;
+}
+.contact-btn{
+    border-radius: 30px;
+    padding: 10px 50px;
+    background-color: #E43C5C;
+    color: white;
+    font-size: 20px;
+}
+
+/* Footer */
+.follow-us{
+    color: white;
+    margin-bottom: 0px;
+    padding: 20px 0px;
+    line-height: 50px;
+    background-color: #040E18;
+}
+.footer{
+color: white;
+line-height: 30px;
+padding: 20px 0px 10px;
+margin-top: 0px;
+background-color: #09121B;
+}
+.footer-link{
+    color: #E43C5C;
+    text-decoration: none;
+}
+.footer-link:hover{
+    text-decoration: none;
+    background-color: transparent;
+    color: #E43C5C;
+}
+
+@media (max-width: 450px) {
+    
+    /* .collapse::before{
+        content: "";
+
+    }
+    .collapse::after{
+        content: "";
+        
+    } */
+
+    .collapse-nav{
+        padding: 20px;
+        font-size: 16px;
+        margin-top: 20px;
+    }
+
+
+
+    .banner{
+        display: block;
+        padding: 250px 30px 70px;
+    }
+    .banner-heading{
+        min-width: 100%;
+        font-size: larger;
+        display: inline-block;
+    }
+    .service-design{
+        padding: 20px 5px 20px 10px;
+    }
+    .port-img{
+        overflow: hidden;
+        height: 200px;
+        padding:15px;
+    }
+    .portfolio-img{
+        padding: 0px;
+        justify-content: space-around;
+        margin: 0px;
+    }
+    .team-intro{
+        width: 100%;
+        float: left;
+    }
+   .team-img {
+       width: 45%;
+       overflow: hidden;
+   }
+   .team-img img{
+       width: 100%;
+   }
+   .team-info{
+    width: 54%;
+    display: inline-block;
+   }
+    .contact-btn{
+    font-size: 14px;
+    padding: 10px 30px;
+    }
+ }
